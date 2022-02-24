@@ -1,0 +1,67 @@
+.navbar{
+    background-color: rgb(62, 71, 71);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 14px;
+    text-align: right;
+    }
+    .navbar a{
+        color: #ffffff;
+        padding: 14px 20px; 
+        text-decoration: 0; 
+        font-size: 15px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+    }
+    .navbar a:hover{
+      background-color: #ffffff;
+      color: #000000;
+    }
+    .logo{
+        float: left;
+        padding-left: 14px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #login{
+      background-color: #40d5c0;
+      width: 20px;  
+      padding: 6px;
+      margin: 20px auto;
+      border-radius: 5px;
+    }
+    .container{
+        display:grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.2fr 0.2fr;
+        grid-gap: 0.2rem;
+        grid-template-areas:
+        "nav nav"
+        "BusSeat BusSeat"
+    }
+    nav{
+        grid-area: nav;
+    }
+    #BusSeat{
+        grid-area: BusSeat;
+    }
+    .box{
+        background: #40d5c0;
+        padding: 30px 100px;
+        margin: 30px;
+        background-repeat: no-repeat;
+        background-position: 50% 20px;
+        text-size-adjust: 13;
+    }
+    #BusSeat{
+        background-image: url(bus-seat.gif);
+        padding: 300px 300px;
+        margin: 30px;
+        background-repeat: no-repeat;
+    }
+    #left{
+        background-color: #40d5c0;
+        border-radius: 5px;
+        text-align: center;
+        float: right;
+    }

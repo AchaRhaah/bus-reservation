@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: rgb(62, 71, 71);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 14px;
+    text-align: right;
+    }
+    .navbar a{
+        color: #ffffff;
+        padding: 14px 20px; 
+        text-decoration: 0; 
+        font-size: 15px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+    }
+    .navbar a:hover{
+      background-color: #808080;
+      color: #000000;
+    }
+
+    .banner{
+        height: 100%;
+        padding:2rem 3rem;
+        margin-top:6%
+    }
+    .logo{
+        float: left;
+        padding-left: 14px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #login{
+      background-color: #40d5c0;
+      width: 10px;  
+      padding: 5px 1.2rem;
+      margin: 10px auto;
+      border-radius: 5px;
+    }
+
+    button{
+        background-color: #40d5c0;
+        width: 97%;
+        border: none;
+        padding: 0.5rem;
+        border-radius: 4px;
+    }
+
+    .Header{
+        min-height: 100vh;
+        background: #000;
+        background-image: url('../assets/hero_img.jpg');
+        background-size: cover;
+        color: white;
+    }
+    .header-image{
+        width: 100%;
+        height: 100vh;
+        display: block;
+    }
+    .header--overlay{
+        position: absolute;
+        top: 40%;
+        text-align: left;
+        width: 100%;
+        height: 100vh;
+        color: white;
+        padding-top: 0px;
+        /* padding: 30px; */
+    }
+    .banner--title{
+        font-size: 400%;
+        font-style: oblique;
+        font-weight: bolder;
+        
+    }
+
+  
+
+    .container{
+        display: flex;
+        margin-bottom: 1rem;
+        justify-content: space-between;
+
+    }
+    .form-container{
+        /* background: #000; */
+        margin-top: 3rem;
+        width: fit-content;
+        /* width: 35vw; */
+    }
+    .banner--description{
+        font-size: 1.2rem;
+        color: rgb(194, 193, 193);
+    }
+    .search_box{
+        font-style: italic;
+        width: 100%;
+    }
+
+    .search_box p{
+        color: rgb(226, 224, 224);
+    }
+    .input{
+        width: 95%;
+        border: 0;
+        border-radius: 4px;
+        padding: 0.5rem;
+        outline: none;
+    }
+    .search_box2{
+        width: 33.33%;
+        padding: 200px;
+        font-style: italic;
+    }
+    .input1{
+        height: 300%;
+        width: 80%;
+        text-align: center;
+        background-color: #40d5c0;
+        margin: 10px auto;
+    }
+    .search_wrap .search_box2{
+        position: relative;
+        width: 500px;
+        height: 10px;
+    }
+    .search_wrap .search_box2 .input1{
+        border: 0;
+        outline: none;
+    }
+    .image{
+        float: left;
+        width: 33.33%;
+        padding: 70px;
+    }
+    .text{
+        float: right;
+        width: 33.33%;
+        padding: 70px;
+        color:rgb(62, 71, 71);
+        font-style: oblique;
+    }
+    .image1{
+        float: right;
+        width: 33.33%;
+        padding: 70px;
+    }
+    .text1{
+        float: left;
+        width: 33.33%;
+        padding: 70px;
+        color:rgb(62, 71, 71);
+        font-style: oblique;
+    }
+    
+
+
+ 
+    
+    

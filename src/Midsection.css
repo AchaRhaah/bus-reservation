@@ -1,0 +1,80 @@
+h2{
+color:#4A4A4A;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 49px;
+line-height: 73px;
+margin-top: 0;
+}
+.paragraph{
+margin-left: 0px;
+font-family: 'Poppins', sans-serif;
+color:#646464;
+font-weight: 400;
+margin-top: 3.5rem;
+}
+ span {
+    width:100%;
+    padding-bottom:3px;
+    border-bottom:12px solid #C4C4C4;
+    text-align:justify;
+}
+.about,.services{
+  width: 90%;
+  display: flex;
+  justify-content:center;
+  padding: 3rem 5rem;
+}
+.about_child{
+width: 40%;
+margin-left: 10rem;
+}
+
+
+.photo{
+width: 398px;
+height: 248px;
+left: 69px;
+padding: 20px;
+object-fit: cover;
+/* margin-left: 50px; */
+}
+.photo2{
+width: 398px;
+height: 248px;
+object-fit: cover;
+/* padding-left: 40px; */
+
+}
+
+
+.services{
+  margin-top: 3rem;
+}
+
+.service_child{
+  margin-right: 10rem;
+  width: 40%;
+
+}
+
+.modal-btn-container{
+  width: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.modal-btn{
+  padding: 1rem 2rem;
+}
+.middle_container{
+  display: flex;
+  flex-direction: row;
+}
+.img5,img4{
+  width: 8rem;
+  height: 8rem;
+  background-size: cover;
+}
+

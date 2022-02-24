@@ -1,0 +1,100 @@
+.account_details{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  grid-gap: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+.bg_modal{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: rgba(0,0,0,0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#button{
+  width: 200px;
+  height: 32px;
+  left: 507px;
+  top: 536px;
+  color:#FFFFFF;
+  /* border-color:  #00B9AE; */
+  background: #00B9AE;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+}
+#button:hover{
+  background:#017e75 ;
+  cursor: pointer;
+}
+.container{
+  margin-top: 12%;
+}
+.close{
+  position: absolute;
+  top: 0;
+  right: 8px;
+  top: -3px;
+  font-size: 30px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+.container{
+  display: flex;
+}
+.paymenet{
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  margin-left: 200px;
+  font-family: 'Poppins', sans-serif;
+}
+.payment_option{
+  display: flex;
+  flex-direction: column;
+  margin-top: -6px;
+  grid-gap: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+.modal_content{
+  width:600px;
+  height: 400px;
+  background-color: white;
+  border-radius: 4px;
+  position: relative;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+.mtn{
+  display: flex;
+  grid-gap: 10px;
+}
+.om{
+  display: flex;
+  grid-gap: 10px;
+}
+.radio_button{
+  margin-top: 22px;
+  border-color: #00B9AE;
+}
+.visa{
+  display: flex;
+  grid-gap: 10px;
+}
+.text_input{
+  border: none;
+  background: #F3F3F3;
+  padding: 1rem;
+  width: 14rem;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}

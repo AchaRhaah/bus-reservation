@@ -1,0 +1,87 @@
+.navbar {
+    background-color: rgb(90, 80, 80);
+  position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.navbar a{
+    color: #ffffff;
+    padding: 15px 20px;
+    text-decoration: none;
+    justify-content: left;
+    margin: 10px 15px ;
+
+}
+    .navbar a:hover {
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+#login {
+    background-color: #00B9AE;
+}
+#book {
+  position: absolute;
+ left: 0px;
+  top: 0px;
+}
+.maincontainer {
+    width: 80vw;
+    height: 100vh;
+   margin-top: 5rem;
+   margin: 2rem;
+}
+.sub1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+}
+.sub2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 50px;
+}
+
+.img {
+    border-radius: 0%;
+    height: 90px;
+    width: 100%;
+}
+.text {
+    height: 40%;
+   padding: 0 0.9rem;
+}
+.num{
+    color: #00B9AE;
+  text-align: right;
+   
+}
+.image {
+    height: 90%;
+    width: 20%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+   box-shadow: 1px 1px 5px#ccc;
+   display: flex;
+   flex-direction: column;
+   margin: 2em;
+
+  
+  
+    /* background-color: aquamarine; */
+}
+@media screen and (max-width: 480px){
+    body {
+        background-color: rgb(0, 0, 0);
+        font-size: 1em;
+    }
+}
